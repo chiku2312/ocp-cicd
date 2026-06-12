@@ -1,3 +1,3 @@
-FROM nginx:latest
+FROM quay.io/nginx/nginx-unprivileged:latest
 COPY index.html /usr/share/nginx/html/index.html
-EXPOSE 80
+EXPOSE 8080
